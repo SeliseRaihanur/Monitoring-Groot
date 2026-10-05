@@ -1,0 +1,15 @@
+{
+  "name": "monitoring-ingest",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/server.ts",
+    "test": "node --experimental-strip-types --test test/*.test.ts"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "@seliseblocks/client": "^0.2.0"
+  }
+}

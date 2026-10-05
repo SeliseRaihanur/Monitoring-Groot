@@ -1,0 +1,15 @@
+{
+  "schemaName": "Service",
+  "collectionName": "Services",
+  "schemaType": 1,
+  "fields": [
+    { "name": "name", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": true, "description": "Service display name" },
+    { "name": "environment", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "dev, stg, or prod" },
+    { "name": "ingestKeyHash", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": true, "description": "SHA-256 hex of the ingest bearer key" },
+    { "name": "ingestKeyId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Public key id shown to operators" },
+    { "name": "otlpEndpointHint", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Suggested OTLP HTTP base URL" },
+    { "name": "owner", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Owning team label, not a person email" },
+    { "name": "sloLatencyMs", "type": "Float", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Slow-trace threshold in milliseconds" },
+    { "name": "sloErrorRate", "type": "Float", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Error-rate SLO as a fraction 0-1" }
+  ]
+}

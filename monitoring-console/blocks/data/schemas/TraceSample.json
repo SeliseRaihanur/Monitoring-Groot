@@ -1,0 +1,14 @@
+{
+  "schemaName": "TraceSample",
+  "collectionName": "TraceSamples",
+  "schemaType": 1,
+  "fields": [
+    { "name": "serviceId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Service ItemId" },
+    { "name": "traceId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "OpenTelemetry trace id" },
+    { "name": "rootSpanName", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Root span name" },
+    { "name": "durationMs", "type": "Float", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Trace duration milliseconds" },
+    { "name": "status", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "OK or ERROR" },
+    { "name": "startedAt", "type": "DateTime", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Trace start UTC" },
+    { "name": "spanJson", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Sampled span payload as JSON text" }
+  ]
+}

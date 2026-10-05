@@ -1,0 +1,17 @@
+{
+  "schemaName": "MetricWindow",
+  "collectionName": "MetricWindows",
+  "schemaType": 1,
+  "fields": [
+    { "name": "serviceId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Service ItemId" },
+    { "name": "windowStart", "type": "DateTime", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "UTC start of the rollup window" },
+    { "name": "windowSeconds", "type": "Int", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Window length in seconds" },
+    { "name": "requestCount", "type": "Int", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Requests observed in the window" },
+    { "name": "errorCount", "type": "Int", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Failed requests in the window" },
+    { "name": "latencyP50Ms", "type": "Float", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "p50 latency milliseconds" },
+    { "name": "latencyP95Ms", "type": "Float", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "p95 latency milliseconds" },
+    { "name": "latencyP99Ms", "type": "Float", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "p99 latency milliseconds" },
+    { "name": "cpuPercent", "type": "Float", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Process CPU percent" },
+    { "name": "memoryBytes", "type": "Float", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Process memory bytes" }
+  ]
+}

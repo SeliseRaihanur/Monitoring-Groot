@@ -1,0 +1,21 @@
+{
+  "security": [
+    { "schemaId": "39866a3c-4a5e-4869-b9af-68abe121f2bb", "accessLevel": 1, "fieldNames": [], "operation": 0, "policyType": 0 },
+    { "schemaId": "39866a3c-4a5e-4869-b9af-68abe121f2bb", "accessLevel": 1, "fieldNames": [], "operation": 1, "policyType": 0 },
+    { "schemaId": "39866a3c-4a5e-4869-b9af-68abe121f2bb", "accessLevel": 1, "fieldNames": [], "operation": 2, "policyType": 0 },
+    { "schemaId": "39866a3c-4a5e-4869-b9af-68abe121f2bb", "accessLevel": 1, "fieldNames": [], "operation": 3, "policyType": 0 },
+    { "schemaId": "747a5794-4ecf-4b4e-9142-97eeb05b9468", "accessLevel": 1, "fieldNames": [], "operation": 0, "policyType": 0 },
+    { "schemaId": "747a5794-4ecf-4b4e-9142-97eeb05b9468", "accessLevel": 1, "fieldNames": [], "operation": 1, "policyType": 0 },
+    { "schemaId": "747a5794-4ecf-4b4e-9142-97eeb05b9468", "accessLevel": 1, "fieldNames": [], "operation": 2, "policyType": 0 },
+    { "schemaId": "747a5794-4ecf-4b4e-9142-97eeb05b9468", "accessLevel": 1, "fieldNames": [], "operation": 3, "policyType": 0 },
+    { "schemaId": "b0a4f471-c30f-4f18-a4e3-422b1d3d7fae", "accessLevel": 1, "fieldNames": [], "operation": 0, "policyType": 0 },
+    { "schemaId": "b0a4f471-c30f-4f18-a4e3-422b1d3d7fae", "accessLevel": 1, "fieldNames": [], "operation": 1, "policyType": 0 },
+    { "schemaId": "b0a4f471-c30f-4f18-a4e3-422b1d3d7fae", "accessLevel": 1, "fieldNames": [], "operation": 2, "policyType": 0 },
+    { "schemaId": "b0a4f471-c30f-4f18-a4e3-422b1d3d7fae", "accessLevel": 1, "fieldNames": [], "operation": 3, "policyType": 0 },
+    { "schemaId": "23ceb694-fe49-4f51-978d-0e14f61e4708", "accessLevel": 1, "fieldNames": [], "operation": 0, "policyType": 0 },
+    { "schemaId": "23ceb694-fe49-4f51-978d-0e14f61e4708", "accessLevel": 1, "fieldNames": [], "operation": 1, "policyType": 0 },
+    { "schemaId": "23ceb694-fe49-4f51-978d-0e14f61e4708", "accessLevel": 1, "fieldNames": [], "operation": 2, "policyType": 0 },
+    { "schemaId": "23ceb694-fe49-4f51-978d-0e14f61e4708", "accessLevel": 1, "fieldNames": [], "operation": 3, "policyType": 0 }
+  ],
+  "policies": []
+}

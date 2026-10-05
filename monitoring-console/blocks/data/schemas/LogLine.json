@@ -1,0 +1,12 @@
+{
+  "schemaName": "LogLine",
+  "collectionName": "LogLines",
+  "schemaType": 1,
+  "fields": [
+    { "name": "serviceId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Service ItemId" },
+    { "name": "timestamp", "type": "DateTime", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Log timestamp UTC" },
+    { "name": "severity", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "INFO, WARN, ERROR, or FATAL" },
+    { "name": "body", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Log message body" },
+    { "name": "traceId", "type": "String", "isArray": false, "isPIIData": false, "isUniqueData": false, "description": "Related OpenTelemetry trace id" }
+  ]
+}
